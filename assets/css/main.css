@@ -903,7 +903,8 @@ section,
 .services .service-item i {
   background: var(--accent-color);
   color: var(--contrast-color);
-  font-size: 24px;
+  font-size:30px;
+  font-style:bold;
   transition: 0.3s;
   display: flex;
   align-items: center;
