@@ -933,7 +933,8 @@ section,
 
 .services .service-item:hover:before,
 .services .service-item:hover:after {
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
+  background: #159FA5;
   right: 0;
   top: 0;
   width: 100%;
@@ -941,6 +942,16 @@ section,
   border-radius: 0px;
 }
 
+.services .child:hover:before,
+.services .child:hover:after,.child {
+  /* background: var(--accent-color); */
+  background: #1586B4;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
 .services .service-item:hover h4 a,
 .services .service-item:hover p {
   color: var(--contrast-color);
